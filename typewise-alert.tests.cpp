@@ -3,7 +3,7 @@
 #include "alert_to_controller.h"
 #include "AlertInEmail.h"
 #include "cooling_config.h"
-#include "TemperatureAlerter_checker.h"
+#include "TemperatureAlert_checker.h"
 
 TEST(InferBreachTest, TemperatureTooLow) {
   EXPECT_EQ(infer_breach(-1, 0, 35), TOO_LOW);
