@@ -1,8 +1,8 @@
 #include <gtest/gtest.h>
 #include "AlertInEmail.h"
 #include "TemperatureAlert_checker.h"
+#include "breach_detector.h" 
 #include "alert_to_controller.h"
-#include "breach_detector.h"
 #include "cooling_config.h"
 
 TEST(CheckAndAlertTest, SendToController) {
